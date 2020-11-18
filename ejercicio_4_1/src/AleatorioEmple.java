@@ -10,6 +10,12 @@ public class AleatorioEmple {
 		System.out.println("prueba 1");
 	}
 
+	public final static double IVA=1.21;
+	
+	public double precioConIVA (double precio){
+		return precio*IVA;
+	}
+	
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
 		RandomAccessFile file = new RandomAccessFile(fichero, "r");
