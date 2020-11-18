@@ -17,6 +17,7 @@ public class AleatorioEmple {
 		String nom;
 		double salario;
 		int pos, num, dep;
+		System.out.println("prueba 2");
 		if (file.length() > 0) {
 			pos = 0;
 			System.out.println(" ------------------------------------------");
