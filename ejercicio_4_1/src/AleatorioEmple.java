@@ -15,6 +15,9 @@ public class AleatorioEmple {
 	public double precioConIVA (double precio){
 		return precio*IVA;
 	}
+	public double precioPorCinco(double precio) {
+		return (precio*IVA)*5;
+	}
 	
 	public static void leer() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
